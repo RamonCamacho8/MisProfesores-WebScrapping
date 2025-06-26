@@ -1,8 +1,8 @@
-from FolderCreation import createOutputFolder
-from GetProfessors import getProfessors
-from GetComments import getCommentsFromProfessors
-from LimpiezaCorpus import limpiarCorpus
-from Translate import TraduccionClass
+from .folder_creation import createOutputFolder
+from .get_professors import getProfessors
+from .get_comments import getCommentsFromProfessors
+from .corpus_cleaning import limpiarCorpus
+from .translation import TraduccionClass
 import pandas as pd
 import torch
 
